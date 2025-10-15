@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paulo Pereira — Transparencia</title>
+  <meta name="description" content="Plataforma institucional da Paulo Pereira — projetos, voluntariado e doações">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+  <header class="container" role="banner">
+    <div class="nav" aria-label="Navegação principal">
+      <div class="logo">Paulo Pereira</div>
+      <nav aria-label="menu principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="voluntariado.html">Voluntariado</a>
+        <a href="doacoes.html">Como doar</a>
+        <a href="transparencia.html">Transparência</a>
+        <a href="blog.html">Blog</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Transparência</h1>
+      <p>Acreditamos na importância da transparência total.</p>
+      <div class="card chart-wrap">
+        <h3>Distribuição de Recursos</h3>
+        <canvas id="pieRecursos" data-chart="pie" style="width:100%;height:220px"></canvas>
+      </div>
+      <div class="card chart-wrap">
+        <h3>Impacto Social por Região</h3>
+        <canvas id="barImpact" data-chart="bar" style="width:100%;height:220px"></canvas>
+      </div>
+    </section>
+    </main>
+
+  <footer class="container" role="contentinfo">
+    <p>&copy; <time datetime="2025">2025</time> Paulo Pereira — Transparência e impacto social</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/charts.js"></script>
+</body>
+</html>

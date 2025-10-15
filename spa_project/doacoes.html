@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paulo Pereira — Doacoes</title>
+  <meta name="description" content="Plataforma institucional da Paulo Pereira — projetos, voluntariado e doações">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+  <header class="container" role="banner">
+    <div class="nav" aria-label="Navegação principal">
+      <div class="logo">Paulo Pereira</div>
+      <nav aria-label="menu principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="voluntariado.html">Voluntariado</a>
+        <a href="doacoes.html">Como doar</a>
+        <a href="transparencia.html">Transparência</a>
+        <a href="blog.html">Blog</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Como Doar</h1>
+      <p>Sua doação ajuda a manter nossos projetos ativos e a ampliar nosso impacto.</p>
+      <form class="needs-validation" id="form-doacao" novalidate>
+        <label for="d-nome">Nome</label>
+        <input id="d-nome" name="nome" required>
+        <label for="d-email">E-mail</label>
+        <input id="d-email" name="email" type="email" required>
+        <label for="d-valor">Valor da Doação (R$)</label>
+        <input id="d-valor" name="valor" type="number" min="10" required>
+        <button class="button btn-primary" type="submit">Doar Agora</button>
+      </form>
+    </section>
+    </main>
+
+  <footer class="container" role="contentinfo">
+    <p>&copy; <time datetime="2025">2025</time> Paulo Pereira — Transparência e impacto social</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/charts.js"></script>
+</body>
+</html>
